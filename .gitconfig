@@ -3,3 +3,8 @@
 	fetch = +refs/heads/*:refs/remotes/origin/*
 [commit]
     message = n
+[push]
+    remote = origin
+[branch "dev"]
+    remote = origin
+    merge = refs/heads/dev
